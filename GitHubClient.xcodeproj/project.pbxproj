@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		793D5DAB1A6DFA37003A9135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DAA1A6DFA37003A9135 /* AppDelegate.swift */; };
-		793D5DAD1A6DFA37003A9135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DAC1A6DFA37003A9135 /* ViewController.swift */; };
 		793D5DB01A6DFA37003A9135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 793D5DAE1A6DFA37003A9135 /* Main.storyboard */; };
 		793D5DB21A6DFA37003A9135 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 793D5DB11A6DFA37003A9135 /* Images.xcassets */; };
 		793D5DB51A6DFA37003A9135 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 793D5DB31A6DFA37003A9135 /* LaunchScreen.xib */; };
 		793D5DC11A6DFA37003A9135 /* GitHubClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DC01A6DFA37003A9135 /* GitHubClientTests.swift */; };
+		793D5DCB1A6DFAE6003A9135 /* SearchRepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DCA1A6DFAE6003A9135 /* SearchRepositoriesViewController.swift */; };
+		793D5DCD1A6E00B0003A9135 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DCC1A6E00B0003A9135 /* Repository.swift */; };
+		793D5DCF1A6E0173003A9135 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DCE1A6E0173003A9135 /* NetworkController.swift */; };
+		793D5DD31A6E06A7003A9135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DD21A6E06A7003A9135 /* ViewController.swift */; };
+		793D5DD51A6E0C10003A9135 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793D5DD41A6E0C10003A9135 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		793D5DA51A6DFA37003A9135 /* GitHubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		793D5DA91A6DFA37003A9135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793D5DAA1A6DFA37003A9135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		793D5DAC1A6DFA37003A9135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		793D5DAF1A6DFA37003A9135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		793D5DB11A6DFA37003A9135 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		793D5DB41A6DFA37003A9135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		793D5DBA1A6DFA37003A9135 /* GitHubClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		793D5DBF1A6DFA37003A9135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793D5DC01A6DFA37003A9135 /* GitHubClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubClientTests.swift; sourceTree = "<group>"; };
+		793D5DCA1A6DFAE6003A9135 /* SearchRepositoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesViewController.swift; sourceTree = "<group>"; };
+		793D5DCC1A6E00B0003A9135 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		793D5DCE1A6E0173003A9135 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		793D5DD21A6E06A7003A9135 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		793D5DD41A6E0C10003A9135 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +85,13 @@
 		793D5DA71A6DFA37003A9135 /* GitHubClient */ = {
 			isa = PBXGroup;
 			children = (
+				793D5DD21A6E06A7003A9135 /* ViewController.swift */,
 				793D5DAA1A6DFA37003A9135 /* AppDelegate.swift */,
-				793D5DAC1A6DFA37003A9135 /* ViewController.swift */,
 				793D5DAE1A6DFA37003A9135 /* Main.storyboard */,
+				793D5DCC1A6E00B0003A9135 /* Repository.swift */,
+				793D5DCE1A6E0173003A9135 /* NetworkController.swift */,
+				793D5DD41A6E0C10003A9135 /* MenuTableViewController.swift */,
+				793D5DCA1A6DFAE6003A9135 /* SearchRepositoriesViewController.swift */,
 				793D5DB11A6DFA37003A9135 /* Images.xcassets */,
 				793D5DB31A6DFA37003A9135 /* LaunchScreen.xib */,
 				793D5DA81A6DFA37003A9135 /* Supporting Files */,
@@ -212,8 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793D5DAD1A6DFA37003A9135 /* ViewController.swift in Sources */,
+				793D5DD31A6E06A7003A9135 /* ViewController.swift in Sources */,
+				793D5DCF1A6E0173003A9135 /* NetworkController.swift in Sources */,
+				793D5DD51A6E0C10003A9135 /* MenuTableViewController.swift in Sources */,
+				793D5DCB1A6DFAE6003A9135 /* SearchRepositoriesViewController.swift in Sources */,
 				793D5DAB1A6DFA37003A9135 /* AppDelegate.swift in Sources */,
+				793D5DCD1A6E00B0003A9135 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
